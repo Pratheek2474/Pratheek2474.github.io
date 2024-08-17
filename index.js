@@ -119,12 +119,12 @@ const paymentRes = document.getElementById("payResult");
 
 submitBtn.onclick = function(){
     if(visaBtn.checked){
-        paymentRes.textContent = "You are a Visa user!";
+        paymentRes.textContent = "You are paying through Visa";
     }
     if(mcBtn.checked){
-        paymentRes.textContent = "You are a Mastercard user!";
+        paymentRes.textContent = "You are paying through Mastercard";
     }
     if(rupayBtn.checked){
-        paymentRes.textContent = "You are a Rupay user!";
+        paymentRes.textContent = "You are paying through Rupay";
     }
 }
